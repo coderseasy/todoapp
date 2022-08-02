@@ -3,8 +3,8 @@ import { useFormulario } from "../hooks/useFormulario";
 
 const Formulario = ({ addTodo }) => {
     const initialState = {
-        nombre: "todo 1",
-        descripcion: "des todo",
+        nombre: "",
+        descripcion: "",
         estado: "pendiente",
         prioridad: false,
     };
@@ -94,7 +94,7 @@ const Formulario = ({ addTodo }) => {
                     </label>
                 </div>
                 <button type="submit" className="btn btn-primary">
-                    Submit
+                    Guardar
                 </button>
             </form>
         </>

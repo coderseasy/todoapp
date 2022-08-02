@@ -36,7 +36,7 @@ const TodoList = () => {
     return (
         <>
             <Formulario addTodo={addTodo} />
-            <h2>TodoList</h2>
+            <h2>Lista de Tareas</h2>
             <ul className="list-group list-group-numbered">
                 {todos.map((item) => (
                     <Todo
